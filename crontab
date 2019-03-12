@@ -1,0 +1,3 @@
+*/5 * * * * /app/SigSciELK.sh > /var/log/sigsci.log 2>&1
+# You need an empty line at the end of the file so that it is considered a valid cron file.
+
